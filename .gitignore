@@ -1,0 +1,12 @@
+# Intellij
+.idea/
+*.iml
+*.iws
+
+/target/
+
+StudentAchieve.iml
+
+.DS_Store
+.AppleDouble
+.LSOverride
