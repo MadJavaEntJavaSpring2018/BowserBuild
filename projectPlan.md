@@ -1,6 +1,6 @@
 # Project Plan
 
 ### Week 10
-- [] Create team project repository
+- [X] Create team project repository
 - [] Time log entries
 - []  
