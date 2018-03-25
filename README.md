@@ -26,4 +26,4 @@ This goal of this project is to created an interactive web application in which 
 5. Form Based Authenitcation?
 
 ### [Project Plan](projectPlan.md)
-### [Time Log](timelog.md)
+### [Time Log](timeLog.md)
