@@ -14,7 +14,7 @@ This goal of this project is to created an interactive web application in which 
 4. File Transfer
 5. Do we want to store build templates?<br>
 	If yes:
-* 	WOuld we store these for the user 
+* 	WOuld we store these for the user
 * 	Will we store these in a repository that users can choose from?
 
 
