@@ -33,6 +33,7 @@ This goal of this project is to created an interactive web application in which 
 
 # Time Log: [Link](timelog.md)
 # Project: [Journal](journal.md)
+# Screen Design [Mockup](DesignDocument/mockup.png)
 =======
 ### [Project Plan](projectPlan.md)
 ### [Time Log](timeLog.md)
