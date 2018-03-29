@@ -1,8 +1,10 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
+<c:set var="title" scope="session" value="BowserBuild"/>
+<c:set var="heading" scope="session" value="#[[$Header$]]#"/>
 
-<c:set var="title" scope="session" value="#[[$Title$]]#"/>
 <c:set var="heading" scope="session" value="#[[$Header$]]#/">
+
 
 <jsp:include page="head.jsp"/>
 <body>
@@ -12,8 +14,8 @@
             <h1 class="text-center">${welcome} Hello Cruel World</h1>
 
 
-            <form class="border" method="post" action="/submit">
-            <!--User Name-->
+            <form class="border" method="post" action="/create">
+           <!--User Name-->
             <div class="col-sm-9 py-3">
                 <label for="username" class="sr-only">Enter User Name</label>
                 <input type="text" class="form-control" name="username" id="username" placeholder="Enter User Name"
@@ -63,4 +65,3 @@
     </div>
 </div>
 </body>
-</html>
