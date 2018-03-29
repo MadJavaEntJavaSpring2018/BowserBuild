@@ -1,7 +1,7 @@
 <h1 align="center">Team Soopa Koopa Troopa</h1><br/>
 <h3 align="center">Team Members: Mike McGrath, See Lor, Joe Caughlin
 <h1 align="center">BOWSER BUILD</h1>
-<p align="center">![KoopaTroopa](koopatroopa.jpg)</p><br><hr>
+<p align="center">![KoopaTroopa](https://github.com/MadJavaEntJavaSpring2018/BowserBuild/blob/master/koopatroopa.jpg)</p><br><hr>
 
 # Problem Statements
 Most build tools aren't very intuitive and for a student new to Java, it can make the learning curve much steeper. Newcomers to Java discover there is almost as much to learn about the tools as there is to learn about Java itself. Lastly, these tools aren't very graphical making it harder for the modern learner to adjust<br><br>
@@ -14,7 +14,11 @@ This goal of this project is to created an interactive web application in which 
 4. File Transfer
 5. Do we want to store build templates?<br>
 	If yes:
+<<<<<<< HEAD
 * 	WOuld we store these for the user
+=======
+* 	Would we store these for the user 
+>>>>>>> e9574e91f7c5c7eb74368e391bd924de50571774
 * 	Will we store these in a repository that users can choose from?
 
 
@@ -25,6 +29,11 @@ This goal of this project is to created an interactive web application in which 
 4. Java Servlet
 5. Form Based Authenitcation?
 
+<<<<<<< HEAD
 
 # Time Log: [Link](timelog.md)
 # Project: [Journal](journal.md)
+=======
+### [Project Plan](projectPlan.md)
+### [Time Log](timeLog.md)
+>>>>>>> e9574e91f7c5c7eb74368e391bd924de50571774
