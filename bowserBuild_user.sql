@@ -1,0 +1,3 @@
+INSERT INTO bowserBuild.user (first_name, last_name, user_name, email, password, confirm_password) VALUES ('Joe', 'Coyne', 'jcoyne', 'jcoyne01@gmail.com', 'supersecret1', 'supersecret1');
+INSERT INTO bowserBuild.user (first_name, last_name, user_name, email, password, confirm_password) VALUES ('Fred', 'Hensen', 'fhensen', 'fhensen02@gmail.com', 'supersecret2', 'supersecret2');
+INSERT INTO bowserBuild.user (first_name, last_name, user_name, email, password, confirm_password) VALUES ('Karen', 'Mack', 'Kmack', 'kmack03@gmail.com', 'supersecret3', 'supersecret3');
