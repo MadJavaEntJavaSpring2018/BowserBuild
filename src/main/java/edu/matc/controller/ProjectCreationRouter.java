@@ -21,7 +21,7 @@ public class ProjectCreationRouter extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
 
-        // #TODO create a USER entitu
+        // #TODO create a USER entity
         String username = request.getParameter("username");
         logger.info(username);
         String email = request.getParameter("email");
@@ -33,7 +33,7 @@ public class ProjectCreationRouter extends HttpServlet {
 
         // #TODO logic to route to user's requested build.
         String projectType = request.getParameter("projecttype");
-
+        logger.info(projectType);
 
         String url = "";
 
