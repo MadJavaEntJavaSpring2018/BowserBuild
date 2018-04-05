@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.util.*;
 
 import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+import org.apache.logging.log4j.Logger ;
 
 import javax.servlet.ServletException;
 import javax.servlet.RequestDispatcher;
@@ -21,7 +21,7 @@ public class ProjectCreationRouter extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
 
-        // #TODO create a USER entity -> Done
+        // #TODO create a USER entity
         String username = request.getParameter("username");
         logger.info(username);
         String email = request.getParameter("email");
@@ -34,12 +34,12 @@ public class ProjectCreationRouter extends HttpServlet {
         // #TODO logic to route to user's requested build.
         String projectType = request.getParameter("projecttype");
 
-
-        String url = "";
+       String url = "";
 
         RequestDispatcher dispatcher =
                 getServletContext().getRequestDispatcher(url);
         dispatcher.forward(request, response);
+
     }
 }
     

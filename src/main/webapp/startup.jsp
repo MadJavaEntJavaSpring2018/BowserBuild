@@ -44,9 +44,9 @@
                 <label class="sr-only" for="projecttype">Choose a Project Type</label>
                 <select class="form-control" id="projecttype" name="projecttype">
                     <option value="">Choose a Project Type</option>
-                <option value="">Java Playground</option>
-                <option value="">Ant</option>
-                <option value="">MAVEN</option>
+                    <option value="">Java Playground</option>
+                    <option value="">MAVEN WebApp</option>
+                    <option value="">MAVEN Simple</option>
                 <option value="">I'll decide later. Just give me the directory</option>
 
                 </select>
