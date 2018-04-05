@@ -3,9 +3,6 @@
 <c:set var="title" scope="session" value="BowserBuild"/>
 <c:set var="heading" scope="session" value="#[[$Header$]]#"/>
 
-<c:set var="heading" scope="session" value="#[[$Header$]]#/">
-
-
 <jsp:include page="head.jsp"/>
 <body>
 <div class="container">
