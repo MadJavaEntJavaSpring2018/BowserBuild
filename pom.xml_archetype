@@ -1,0 +1,9 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSche      1 ma-instance"
+      2   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0      2 .xsd">
+      3   <modelVersion>4.0.0</modelVersion>
+      4   <groupId>matc.edu</groupId>
+      5   <artifactId>java-webapp-archetype</artifactId>
+      6   <version>0.5</version>
+      7   <name>Archetype - java-webapp-archetype</name>
+      8   <url>http://maven.apache.org</url>
+      9 </project>
