@@ -34,7 +34,9 @@ public class ProjectCreationRouter extends HttpServlet {
         // #TODO logic to route to user's requested build.
         String projectType = request.getParameter("projecttype");
 
-       String url = "";
+        logger.info(projectType);
+
+        String url = "";
 
         RequestDispatcher dispatcher =
                 getServletContext().getRequestDispatcher(url);
