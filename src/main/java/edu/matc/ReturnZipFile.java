@@ -13,7 +13,8 @@ public class ReturnZipFile {
     @Path("/get")
     @Produces("application/zip")
     public Response getProjectFile() {
-        // Location of the file --> /home/student/IdeaProjects/BowserBuild/entjava-archetype-webapp
+
+        // Location of the file
         File file = new File("/home/student/IdeaProjects/BowserBuild/entjava-archetype-webapp.zip");
 
         Response.ResponseBuilder response = Response.ok((Object) file);
@@ -21,6 +22,7 @@ public class ReturnZipFile {
                 "attachment; filename=EntJava-Archetype-Webapp.zip");
         return response.build();
     }
+
 
     /**
     @GET
@@ -35,4 +37,18 @@ public class ReturnZipFile {
         return response.build();
     }
     **/
+
+    /**
+     @GET
+     @Path("/get")
+     @Produces("application/zip")
+     public Response getProjectFile() {
+     File file = new File("/home/student/IdeaProjects/DemoAct2.zip");
+
+     Response.ResponseBuilder response = Response.ok((Object) file);
+     response.header("Content-Disposition",
+     "attachment; filename=DisplayName-DemoArt2.zip");
+     return response.build();
+     }
+     **/
 }

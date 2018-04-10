@@ -11,7 +11,7 @@
         <div class="col-sm-12">
             <h1 class="text-center">${welcome} Hello Cruel World</h1>
 
-            <form class="border" method="post" action="/submit">
+            <form class="border" method="post" action="/create">
             <!--User Name-->
             <div class="col-sm-9 py-3">
                 <label for="username" class="sr-only">Enter User Name</label>
