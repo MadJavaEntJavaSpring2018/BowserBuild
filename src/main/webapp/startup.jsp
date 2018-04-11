@@ -33,7 +33,7 @@
                                     </ul>
                                 </div>
                                 <div class="card-footer text-center">
-                                    <a href="http://localhost:8080/BowserBuild/file/get">
+                                    <a href="http://52.15.43.106:8080/BowserBuild/file/get">
                                         <button type="button" class="btn btn-success">Download</button>
                                     </a>
                                 </div>
@@ -49,7 +49,7 @@
                                     </ul>
                                 </div>
                                 <div class="card-footer text-center">
-                                    <a href="http://localhost:8080/BowserBuild/file/get">
+                                    <a href="http://52.15.43.106:8080/BowserBuild/file/get">
                                         <button type="button" class="btn btn-success">Download</button>
                                     </a>
                                 </div>
@@ -70,6 +70,18 @@
                             </div>
                         </div>
                     </form>
+                </div>
+            </div>
+            <br />
+            <div class="card">
+                <div class="card-header text-center">
+                    <h1>Instructions</h1>
+                </div>
+                <div class="card-body">
+                    <ul>
+                        <li><a href="https://github.com/MadJavaEntJavaSpring2018/BowserBuild/blob/master/InstallationGuide/INSTALL.md">Maven Installation Guide</a></li>
+                        <li><a href="https://github.com/MadJavaEntJavaSpring2018/BowserBuild/blob/master/InstallationGuide/MAVEN%20ARCHEYPES.md">Maven Configuration Guide</a></li>
+                    </ul>
                 </div>
             </div>
         </div>
