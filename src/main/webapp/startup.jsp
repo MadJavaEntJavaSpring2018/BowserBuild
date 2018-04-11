@@ -33,7 +33,7 @@
                                     </ul>
                                 </div>
                                 <div class="card-footer text-center">
-                                    <a href="http://52.15.43.106:8080/BowserBuild/file/get">
+                                    <a href="BowserBuild/file/get" role="button" aria-pressed="true">
                                         <button type="button" class="btn btn-success">Download</button>
                                     </a>
                                 </div>
@@ -49,7 +49,7 @@
                                     </ul>
                                 </div>
                                 <div class="card-footer text-center">
-                                    <a href="http://52.15.43.106:8080/BowserBuild/file/get">
+                                    <a href="/file/get" role="button" aria-pressed="true">
                                         <button type="button" class="btn btn-success">Download</button>
                                     </a>
                                 </div>
