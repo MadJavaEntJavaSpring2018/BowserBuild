@@ -47,9 +47,7 @@
                   </ul>
                 </div>
                 <div class="card-footer text-center">
-                  <a href="http://52.15.43.106:8080/BowserBuild/file">
-                    <button type="button" class="btn btn-success">Download</button>
-                  </a>
+                  <a href="http://18.188.64.135:8080/BowserBuild/file/getJavaPlayground" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Download</a>
                 </div>
               </div>
               <div class="card">
@@ -63,7 +61,7 @@
                   </ul>
                 </div>
                 <div class="card-footer text-center">
-                  <button type="button" class="btn btn-primary">Select</button>
+                  <a href="" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Download</a>
                 </div>
               </div>
             </div>
