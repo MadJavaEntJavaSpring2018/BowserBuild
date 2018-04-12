@@ -19,11 +19,11 @@ public class ReturnZipFile {
 
 
       // Location of the file --> aws
-      File file = new File("/home/ubuntu/entjava-archetype-webapp.zip");
+      File file = new File("/home/ubuntu/archetype-webapp.zip");
 
       Response.ResponseBuilder response = Response.ok((Object) file);
     response.header("Content-Disposition",
-            "attachment; filename=EntJava-Archetype-Webapp.zip");
+            "attachment; filename=Archetype-Webapp.zip");
     return response.build();
   }
 
