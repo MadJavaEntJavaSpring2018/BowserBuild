@@ -1,7 +1,5 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
-<% String currentURL = request.getRequestURI(); %>
-
 <c:set var="title" scope="session" value="BowserBuild"/>
 <c:set var="heading" scope="session" value="#[[$Header$]]#"/>
 
@@ -23,9 +21,9 @@
           <form method="post" action="/create">
             <div class="card-group">
               <div class="card">
-                <h5 class="card-header text-center">Archetype One</h5>
+                <h5 class="card-header text-center">EntJava Webapp</h5>
                 <div class="card-body">
-                  <p class="card-text">Description of the archetype and what it includes.</p>
+                  <p class="card-text">Typical shell of an Enterprise Java application.</p>
                   <ul>
                     <li>Feature One</li>
                     <li>Feature Two</li>
@@ -33,13 +31,13 @@
                   </ul>
                 </div>
                 <div class="card-footer text-center">
-                    <a href="http://18.188.64.135:8080/BowserBuild/file/get" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Download</a>
+                    <a href="http://52.15.43.106:8080/BowserBuild/file/get" class="btn btn-success" role="button" aria-pressed="true">Download</a>
                 </div>
               </div>
               <div class="card">
-                <h5 class="card-header text-center">Archetype Two</h5>
+                <h5 class="card-header text-center">Java Playground</h5>
                 <div class="card-body">
-                  <p class="card-text">Description of the archetype and what it includes.</p>
+                  <p class="card-text">Very basic project structure for quick coding.</p>
                   <ul>
                     <li>Feature One</li>
                     <li>Feature Two</li>
@@ -47,9 +45,7 @@
                   </ul>
                 </div>
                 <div class="card-footer text-center">
-                  <a href="http://52.15.43.106:8080/BowserBuild/file">
-                    <button type="button" class="btn btn-success">Download</button>
-                  </a>
+                  <a href="http://52.15.43.106:8080/BowserBuild/file/getJavaPlayground" class="btn btn-success" role="button" aria-pressed="true">Download</a>
                 </div>
               </div>
               <div class="card">
@@ -63,7 +59,7 @@
                   </ul>
                 </div>
                 <div class="card-footer text-center">
-                  <button type="button" class="btn btn-primary">Select</button>
+                  <button type="button" class="btn btn-primary">Configure</button>
                 </div>
               </div>
             </div>

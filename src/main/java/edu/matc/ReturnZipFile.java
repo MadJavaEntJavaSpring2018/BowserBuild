@@ -28,19 +28,20 @@ public class ReturnZipFile {
   }
 
 
-  /**
-   @GET
-   @Path("/get")
-   @Produces("application/zip")
-   public Response getProjectFile() {
-   File file = new File("/home/student/IdeaProjects/DemoAct2.zip");
 
-   Response.ResponseBuilder response = Response.ok((Object) file);
-   response.header("Content-Disposition",
-   "attachment; filename=DisplayName-DemoArt2.zip");
-   return response.build();
-   }
-   **/
+    @GET
+    @Path("/getJavaPlayground")
+    @Produces("application/zip")
+    public Response getJavaPlayground() {
+
+        // Location of the file --> aws
+        File file = new File("/home/ubuntu/archetype-javaplayground.zip");
+
+        Response.ResponseBuilder response = Response.ok((Object) file);
+        response.header("Content-Disposition", "attachment; filename=Archetype-JavaPlayGround.zip");
+
+        return response.build();
+    }
 
   /**
    @GET
