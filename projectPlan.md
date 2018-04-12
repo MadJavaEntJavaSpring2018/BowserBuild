@@ -10,10 +10,10 @@
 ### Week 11
 - [X] Time log entries
 - [X] Create return zip file service
-- [] Create three different archetypes
+- [X] Create Second archetypes
 
 
 ### Week 12
-- [] Deploy to AWS 
-- [] Time log entries
-- [] Final touches before code complete
+- [X] Deploy to AWS 
+- [X] Time log entries
+- [X] Final touches before code complete

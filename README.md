@@ -14,11 +14,9 @@ This goal of this project is to created an interactive web application in which 
 4. File Transfer
 5. Do we want to store build templates?<br>
 	If yes:
-<<<<<<< HEAD
-* 	WOuld we store these for the user
-=======
+
 * 	Would we store these for the user 
->>>>>>> e9574e91f7c5c7eb74368e391bd924de50571774
+
 * 	Will we store these in a repository that users can choose from?
 
 
@@ -29,12 +27,6 @@ This goal of this project is to created an interactive web application in which 
 4. Java Servlet
 5. Form Based Authenitcation?
 
-<<<<<<< HEAD
-
-# Time Log: [Link](timelog.md)
-# Project: [Journal](journal.md)
-# Screen Design [Mockup](DesignDocument/mockup.png)
-=======
 ### [Project Plan](projectPlan.md)
 ### [Time Log](timeLog.md)
->>>>>>> e9574e91f7c5c7eb74368e391bd924de50571774
+
