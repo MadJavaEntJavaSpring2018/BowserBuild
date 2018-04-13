@@ -10,8 +10,8 @@
   <div class="row">
     <div class="col-sm-12">
       <div class="jumbotron" style="margin-top:1em;">
-        <h1>BowserBuild</h1>
-        <p>Enterprise Java Archetype Provider</p>
+        <h1 class="text-center">BowserBuild</h1>
+        <p class="text-center">Enterprise Java Archetype Provider</p>
       </div>
       <div class="card">
         <div class="card-header text-center">
@@ -24,11 +24,7 @@
                 <h5 class="card-header text-center">EntJava Webapp</h5>
                 <div class="card-body">
                   <p class="card-text">Typical shell of an Enterprise Java application.</p>
-                  <ul>
-                    <li>Feature One</li>
-                    <li>Feature Two</li>
-                    <li>Feature Three</li>
-                  </ul>
+
                 </div>
                 <div class="card-footer text-center">
                     <a href="http://52.15.43.106:8080/BowserBuild/file/get" class="btn btn-success" role="button" aria-pressed="true">Download</a>
@@ -38,14 +34,10 @@
                 <h5 class="card-header text-center">Java Playground</h5>
                 <div class="card-body">
                   <p class="card-text">Very basic project structure for quick coding.</p>
-                  <ul>
-                    <li>Feature One</li>
-                    <li>Feature Two</li>
-                    <li>Feature Three</li>
-                  </ul>
+
                 </div>
                 <div class="card-footer text-center">
-                  <a href="http://18.188.64.135:8080/BowserBuild/file/getJavaPlayground" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Download</a>
+                  <a href="http://18.188.64.135:8080/BowserBuild/file/getJavaPlayground" class="btn btn-secondary active" role="button" aria-pressed="true">Download</a>
                 </div>
               </div>
               <div class="card">
