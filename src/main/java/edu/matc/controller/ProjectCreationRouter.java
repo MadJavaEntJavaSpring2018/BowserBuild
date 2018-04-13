@@ -14,6 +14,9 @@ import javax.servlet.annotation.*;
 import javax.servlet.http.*;
 
 
+/**
+ * Unused Servlet for future functionality to create a custom archetype.
+ */
 @WebServlet(name = "ProjectCreationRouter", urlPatterns = "/create")
 public class ProjectCreationRouter extends HttpServlet {
 

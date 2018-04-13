@@ -12,6 +12,9 @@ import javax.servlet.annotation.*;
 import javax.servlet.http.*;
 
 
+/**
+ * The Starter servlet for application.
+ */
 @WebServlet(name = "StarterServlet", urlPatterns = "/starter")
 public class StarterServlet extends HttpServlet {
 
